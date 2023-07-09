@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6037411b-99b1-41c0-81a7-24763e318025" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MyFirstTestClass.java" afterDir="false" />
+    <list default="true" id="6037411b-99b1-41c0-81a7-24763e318025" name="Changes" comment="MyFirstTestClass">
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC01TestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC02BassicLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MyFirstTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MyFirstTestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,24 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TC01TestNG">
     <configuration name="MyFirstTestClass.testpagetitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
@@ -71,8 +68,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TC01TestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LocatorLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LocatorLearning" />
+      <option name="MAIN_CLASS_NAME" value="LocatorLearning.TC01TestNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC01TestNG" />
         <item itemvalue="TestNG.MyFirstTestClass.testpagetitle" />
       </list>
     </recent_temporary>
@@ -86,6 +101,20 @@
       <option name="presentableId" value="Default" />
       <updated>1688711112245</updated>
     </task>
+    <task id="LOCAL-00001" summary="MyFirstTestClass">
+      <option name="closed" value="true" />
+      <created>1688732139116</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688732139116</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FirstTestClass" />
+    <MESSAGE value="MyFirstTestClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyFirstTestClass" />
   </component>
 </project>
