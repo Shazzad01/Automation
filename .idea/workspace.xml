@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6037411b-99b1-41c0-81a7-24763e318025" name="Changes" comment="MyFirstTestClass">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC01TestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC02BassicLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC03AdvanceLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC04_NavigateBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC05_Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC07_iframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC08_select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC09_test_MikeAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC10_wait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC_06_Diff_Action.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MyFirstTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MyFirstTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC02BassicLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LocatorLearning/TC02BassicLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverSetup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2SEUxaSid5NnT27Zqbt1pJ4cA5Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,6 +48,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shazz/Downloads/Compressed/Batch_16_POM&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -49,26 +59,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC01TestNG">
-    <configuration name="MyFirstTestClass.testpagetitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MyFirstTestClass" />
-      <option name="METHOD_NAME" value="testpagetitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC01TestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TC10_wait.testWaitAlert01">
+    <configuration name="TC05_Alert.alert03" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +69,81 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="LocatorLearning" />
-      <option name="MAIN_CLASS_NAME" value="LocatorLearning.TC01TestNG" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="LocatorLearning.TC05_Alert" />
+      <option name="METHOD_NAME" value="alert03" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC08_select.testMultiSelect" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LocatorLearning.TC09MicAccess" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LocatorLearning" />
+      <option name="MAIN_CLASS_NAME" value="LocatorLearning.TC08_select" />
+      <option name="METHOD_NAME" value="testMultiSelect" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC09_test_MikeAccess.testMicAccess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LocatorLearning.TC09MicAccess" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LocatorLearning" />
+      <option name="MAIN_CLASS_NAME" value="LocatorLearning.TC09_test_MikeAccess" />
+      <option name="METHOD_NAME" value="testMicAccess" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC10_wait.testWaitAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LocatorLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LocatorLearning" />
+      <option name="MAIN_CLASS_NAME" value="LocatorLearning.TC10_wait" />
+      <option name="METHOD_NAME" value="testWaitAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC10_wait.testWaitAlert01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LocatorLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LocatorLearning" />
+      <option name="MAIN_CLASS_NAME" value="LocatorLearning.TC10_wait" />
+      <option name="METHOD_NAME" value="testWaitAlert01" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -87,8 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC01TestNG" />
-        <item itemvalue="TestNG.MyFirstTestClass.testpagetitle" />
+        <item itemvalue="TestNG.TC10_wait.testWaitAlert01" />
+        <item itemvalue="TestNG.TC05_Alert.alert03" />
+        <item itemvalue="TestNG.TC10_wait.testWaitAlert" />
+        <item itemvalue="TestNG.TC09_test_MikeAccess.testMicAccess" />
+        <item itemvalue="TestNG.TC08_select.testMultiSelect" />
       </list>
     </recent_temporary>
   </component>
@@ -109,8 +177,27 @@
       <option name="project" value="LOCAL" />
       <updated>1688732139116</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MyFirstTestClass">
+      <option name="closed" value="true" />
+      <created>1688885130406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688885130406</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FirstTestClass" />

@@ -10,12 +10,12 @@ public class DriverSetup {
     @BeforeSuite
     public void setdriver() {
         driver = new ChromeDriver();
-        driver.manage().window().fullscreen();
+        driver.manage().window().maximize();
     }
     @AfterSuite
     public void closedriver() {
 
-        driver.close();
+        driver.quit();
 
     }
 }
